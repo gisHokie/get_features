@@ -1,0 +1,54 @@
+{
+  "name": "weather_package",
+  "version": "0.0.0",
+  "description": "Location-based weather application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "async": "^2.6.1",
+    "bluebird": "^3.5.2",
+    "chromedriver": "^2.42.0",
+    "debug": "^4.1.0",
+    "download-file": "^0.1.5",
+    "fs": "0.0.1-security",
+    "ftp": "^0.3.10",
+    "ftp-client": "^0.2.2",
+    "geckodriver": "^1.12.2",
+    "glob": "^7.1.3",
+    "https": "^1.0.0",
+    "json": "^9.0.6",
+    "lodash": "^4.17.11",
+    "npm": "^6.4.1",
+    "path": "^0.12.7",
+    "puid": "^1.0.7",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "selenium": "^2.20.0",
+    "selenium-webdriver": "^4.0.0-alpha.1",
+    "socks": "^2.2.1",
+    "urllib": "^2.30.0",
+    "util": "^0.11.0",
+    "xml-stream": "^0.4.5",
+    "xml2js": "^0.4.19",
+    "xml2json": "^0.11.2"
+  },
+  "engines": {
+    "node": "4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gisHokie/weather"
+  },
+  "keywords": [
+    "node",
+    "weather",
+    "location"
+  ],
+  "author": "Scott McDermott",
+  "contributors": [
+    "Scott Newby <snewby@markelcorp.com> (http://www.anewbi.com)"
+  ],
+  "license": "MIT"
+}
