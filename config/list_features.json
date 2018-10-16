@@ -1,0 +1,70 @@
+{
+  "description": "A list of all shapefiles and their locations",
+  "version": "1.0.0",
+  "shapefiles": {
+    "states": {
+      "owner": "US Census",
+      "url": "https://www2.census.gov/geo/tiger/TIGER2017/STATE/tl_2017_us_state.zip",
+      "updated": "annually",
+      "shape_type": "shapefile"
+    },
+    "county": {
+      "owner": "US Census",
+      "url": "https://www2.census.gov/geo/tiger/TIGER2017/COUNTY/tl_2017_us_county.zip",
+      "updated": "annually",
+      "shape_type": "polygon"
+    },
+    "zipcode": {
+      "owner": "US Census",
+      "url": "https://www2.census.gov/geo/tiger/TIGER2017/ZCTA5/tl_2017_us_zcta510.zip",
+      "updated": "annually",
+      "shape_type": "polygon"
+    },
+    "floodplain": {
+      "owner": "",
+      "url": "",
+      "updated": "",
+      "shape_type": "polygon"
+    },
+	  "coastline": {
+      "owner": "US Census",
+      "url": "https://www2.census.gov/geo/tiger/TIGER2017/COASTLINE/tl_2017_us_coastline.zip",
+      "updated": "annually",
+      "shape_type": "polygon"
+    }
+  },
+  "mapservices": {
+    "hurricane_points": {
+      "owner": "NHC",
+      "url": "",
+      "updated": "",
+      "shape_type": ""
+    },
+    "hurricane_cone": {
+      "owner": "NHC",
+      "url": "",
+      "updated": "",
+      "shape_type": ""
+    },
+    "wildfire": {
+      "owner": "",
+      "url": "",
+      "updated": "",
+      "shape_type": ""
+    },
+    "thunder": {
+      "owner": "",
+      "url": "",
+      "updated": "",
+      "shape_type": ""
+    }
+  },
+ "webservices": {
+    "weather_stations": {
+      "owner": "National Weather Services",
+      "url": "https://w1.weather.gov/xml/current_obs/index.xml",
+      "updated": "hourly",
+      "file_type": "xml"
+    }
+	}
+}

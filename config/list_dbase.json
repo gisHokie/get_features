@@ -1,0 +1,28 @@
+{
+  "description": "A list of database connections",
+  "version": "1.0.0",
+  "PostGres": {
+    "GEO": {
+      "schema": "",
+      "database": "",
+      "user": "",
+      "password": "",
+	  "conn": ""
+    },
+    "Newby": {
+      "schema": "",
+      "database": "",
+      "user": "",
+      "password": "",
+	  "conn": ""
+    }
+  },
+  "SQL Server": {
+    "TEST": {
+      "schema": "",
+      "database": "",
+      "user": "",
+      "password": "",
+	  "conn": ""
+    }
+}
